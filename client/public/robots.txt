@@ -1,0 +1,4 @@
+User-agent: *
+
+Host: https://domain.com
+Sitemap: https://domain.com/sitemap.xml

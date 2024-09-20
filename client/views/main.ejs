@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="en">
+
+<%- await include("./partials/head.ejs") %>
+
+<body>
+    <main class="main">
+        <%- await include(`./pages/${page.page_view}.ejs`) %>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title><%= page.page_title %></title>
+    <meta name="description" content="<%= page.page_descr %>">
+
+    <link rel="canonical" href="<%= `${protocol}://${hostname}${currentUri}` %>">
+
+    <meta property="og:locale" content="en">
+    <meta property="og:site_name" content="NodeJS CMS">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="<%= page.page_title %>">
+    <meta property="og:description" content="<%= page.page_descr %>">
+    <meta property="og:url" content="<%= `${protocol}://${hostname}${currentUri}` %>">
+    <meta property="og:image" content="<%= `${protocol}://${hostname}/preview.webp` %>">
+    <meta property="og:image:secure_url" content="<%= `${protocol}://${hostname}/preview.webp` %>">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<%= page.page_title %>">
+    <meta name="twitter:description" content="<%= page.page_descr %>">
+    <meta name="twitter:image" content="<%= `${protocol}://${hostname}/preview.webp` %>">
+
+    <link rel="shortcut icon" href="<%= `${protocol}://${hostname}/favicon.png` %>" type="image/png">
+
+    <link rel="stylesheet" href="/css/main.css">
+
+    <script defer src="/js/main.js"></script>
+</head>

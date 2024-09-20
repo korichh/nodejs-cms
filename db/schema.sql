@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS nodejs-cms;
+
+CREATE DATABASE nodejs-cms;
